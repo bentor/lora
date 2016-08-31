@@ -39,7 +39,7 @@ Starting bandwidth scan
 -----------------------
 Bw7_8Cr45Sf128
 Sending time: 691
-No reply, is rf95_server running?
+No reply, is lora shell running on remote node?
 
 Bw10_4Cr45Sf128
 Sending time: 518
