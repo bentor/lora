@@ -174,5 +174,7 @@ Remember to get the excellent RadioHead library. Get it from here: http://www.ai
 
 
 # Author
+Have fun! :)
+
 Bent G Christensen <bentor@gmail.com>
 
