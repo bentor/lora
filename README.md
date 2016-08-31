@@ -38,50 +38,52 @@ got reply: ready
 Starting bandwidth scan
 -----------------------
 Bw7_8Cr45Sf128
-Sending time: 691
-No reply, is lora shell running on remote node?
+Sending time: 690
+got reply: scan pong
+RSSI: -27
+Ping time: 1485
 
 Bw10_4Cr45Sf128
 Sending time: 518
 got reply: scan pong
-RSSI: -32
-Ping time: 1114
+RSSI: -26
+Ping time: 1115
 
 Bw15_6Cr45Sf128
 Sending time: 346
 got reply: scan pong
-RSSI: -34
+RSSI: -26
 Ping time: 744
 
 Bw31_25Cr48Sf128
 Sending time: 173
 got reply: scan pong
-RSSI: -33
-Ping time: 373
+RSSI: -25
+Ping time: 374
 
 Bw31_25Cr45Sf512
-Sending time: 608
+Sending time: 607
 got reply: scan pong
-RSSI: -35
+RSSI: -29
 Ping time: 1320
 
 Bw62_5Cr45Sf1024
 Sending time: 526
 got reply: scan pong
-RSSI: -36
-Ping time: 1160
+RSSI: -30
+Ping time: 1159
 
 Bw125Cr45Sf2048
 Sending time: 526
 got reply: scan pong
-RSSI: -36
+RSSI: -30
 Ping time: 1162
 
 Bw125Cr45Sf128
 Sending time: 44
 got reply: scan pong
-RSSI: -32
-Ping time: 95
+RSSI: -25
+Ping time: 96
 
 Bw125Cr45Sf128
 lora>
