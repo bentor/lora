@@ -165,6 +165,7 @@ Ping time: 663
 lora>
 ```
 
+Note that in the U.S. the FCC has a 400ms transmission time limit restriction for the 902-928MHz ISM bands. 
 
 # Dependencies
 Remember to get the excellent RadioHead library. Get it from here: http://www.airspayce.com/mikem/arduino/RadioHead/
