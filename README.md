@@ -4,7 +4,7 @@ A Lora networking toolbox for testing and troubleshooting various settings
 ## Intended Use
 This program is a quick and dirty test suite for two lora enabled microcontrollers, e.g., two Arduinos. I needed a way to test various bandwidth frequencies combined with payload size, without having to re-compile and upload code for each permutation for each microcontroller. So, instead here is a "lora shell" with a limited set of commands for testing. Interaction with the lora shell is through the Serial Monitor in Arduino Studio (with the "No line ending" option selected and 9600 baud) or just through the usb serial.     
 
-`
+```
 ? : show available commands
 p : toggle (start/stop) pinging other nodes
 b<n> : set bandwidth. n = {0,..,7}
@@ -15,23 +15,23 @@ g : perform packet size scan
 t : perform throughput test
 
 lora>
-`
+```
 
 Here is the output after turning on ping with `p`:
 
-`
+```
 lora>p
 Sending time: 44
 got reply: pong
 RSSI: -24
 Ping time: 90
-`
+```
 
 All times are in milli seconds.
 
 Here is the output after a bandwidth scan with `s`:
 
-`
+```
 lora>s
 got reply: ready
 
@@ -85,12 +85,12 @@ Ping time: 95
 
 Bw125Cr45Sf128
 lora>
-`
+```
 
 Here is the output after a packet size scan with `g`:
 
 
-`
+```
 lora>g
 got reply: unknown
 
@@ -163,12 +163,13 @@ RSSI: -32
 Ping time: 663
 
 lora>
-`
+```
 
-##
+
+# Dependencies
 Remember to get the excellent RadioHead library. Get it from here: http://www.airspayce.com/mikem/arduino/RadioHead/
 
 
-##
+# Author
 Bent G Christensen <bentor@gmail.com>
 
