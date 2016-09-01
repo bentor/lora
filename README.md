@@ -1,5 +1,5 @@
 # lora
-A Lora networking toolbox for testing and troubleshooting various settings
+A Lora (Long Range) networking toolbox for testing and troubleshooting various settings
 
 ## Intended Use
 This program is a quick and dirty test suite for two lora enabled microcontrollers, e.g., two Arduinos. I needed a way to test various bandwidth frequencies combined with payload size, without having to re-compile and upload code for each permutation for each microcontroller. So, instead here is a "lora shell" with a limited set of commands for testing. Interaction with the lora shell is through the Serial Monitor in Arduino Studio (with the "No line ending" option selected and 9600 baud) or just through the usb serial.     
