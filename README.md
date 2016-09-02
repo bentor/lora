@@ -170,7 +170,11 @@ lora>
 Note that in the U.S. the FCC has a 400ms transmission time limit restriction for the 902-928MHz ISM bands. 
 
 # Dependencies
-Remember to get the excellent RadioHead library. Get it from here: http://www.airspayce.com/mikem/arduino/RadioHead/
+The lora shell util is using Mike McCauley's excellent RadioHead library which I have modified slightly.
+
+You can get the latest version of his library here:
+
+        http://www.airspayce.com/mikem/arduino/RadioHead/
 
 
 # Author
