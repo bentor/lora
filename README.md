@@ -162,7 +162,7 @@ set_size: 250
 Sending time: 405
 got reply: unknown
 RSSI: -32
-Ping time: 663
+Ping time: 662
 
 lora>
 ```
